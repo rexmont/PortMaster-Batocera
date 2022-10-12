@@ -1,4 +1,5 @@
 # Postmaster-Batocera
+## Introduction
  Batocera compatible PostMaster Implementation
 
  I think in the near future PostMaster will be ported onto Batocera but for now, out of the box PortMaster does not work on Batocera (v35). The device I use is an Ondroid Go Super with a USB WiFi dongle.
@@ -10,7 +11,7 @@
 
  This version of the PortMaster app still references to the original repo with regards to game list, required support files. I have disabled the Auto-Update feature for now, as that needs to be tackled separately.
 
-#Steps to install PostMaster
+## Steps to install PostMaster
 1. Download the repo as ZIP using the green button on the right and up side of this page. (Code > Download ZIP)
 2. Extract ZIP on your computer
 3. SFTP into your Batocera installed device
