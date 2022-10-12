@@ -1,7 +1,7 @@
 # Postmaster-Batocera
  Batocera compatible PostMaster Implementation
 
- I think in the near future PostMaster will be ported onto Batocera but for now, out of the box PortMaster does not work on Batocera (v35). The device I use is an Ondroid Go Super.
+ I think in the near future PostMaster will be ported onto Batocera but for now, out of the box PortMaster does not work on Batocera (v35). The device I use is an Ondroid Go Super with a USB WiFi dongle.
 
  I am no bash scripting expert by any means, but it seems like there are two issues with the current implementation that prevents the PortMaster to run on Batocera:
 
