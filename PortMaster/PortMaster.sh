@@ -502,5 +502,5 @@ TopLevel() {
   done
 }
 
-UpdateCheck
+#UpdateCheck
 TopLevel
