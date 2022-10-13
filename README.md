@@ -1,8 +1,8 @@
-# Postmaster-Batocera
+# PortMaster-Batocera
 ## Introduction
- Batocera compatible PostMaster Implementation
+ Batocera compatible PortMaster Implementation
 
- I think in the near future PostMaster will be ported onto Batocera but for now, out of the box PortMaster does not work on Batocera (v35). The device I use is an Ondroid Go Super with a USB WiFi dongle.
+ I think in the near future PortMaster will be ported onto Batocera but for now, out of the box PortMaster does not work on Batocera (v35). The device I use is an Ondroid Go Super with a USB WiFi dongle.
 
  I am no bash scripting or Linux expert by any means, but it seems like there are two issues with the current implementation that prevents the PortMaster to run on Batocera:
 
@@ -11,17 +11,17 @@
 
  This version of the PortMaster app still references to the original repo with regards to game list, required support files. I have disabled the Auto-Update feature for now, as that needs to be tackled separately.
 
-## Steps to install PostMaster
+## Steps to install PortMaster
 1. Download the repo as ZIP using the green button on the right and up side of this page. (Code > Download ZIP)
 2. Extract ZIP on your computer
 3. SFTP into your Batocera installed device
 4. Browse to /userdata/roms/ and create a folder called *ports* if it is not there
-5. Transfer the *PostMaster* folder from the extracted ZIP file into the *ports* folder you just created on the device
+5. Transfer the *PortMaster* folder from the extracted ZIP file into the *ports* folder you just created on the device
 6. Transfer the *custom.sh* file into */userdata/system*. This script creates the required */storage* symlink on reboot
 6. Reboot Batocera installed device (handheld, etc)
 7. Browse to *Ports* category on Batocera
-8. PostMaster should be listed now. Launch it.
-9. PostMaster should launch with no issues. From this step onwards you can follow online tutorials to install game ports.
+8. PortMaster should be listed now. Launch it.
+9. PortMaster should launch with no issues. From this step onwards you can follow online tutorials to install game ports.
 
 ## Installing Games
 Some games are already included as part of the PortMaster and can be downloaded and played immediately. Other games which require a purchase needs to follow the process where it is explained on guides available online.
