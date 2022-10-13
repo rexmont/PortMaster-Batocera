@@ -244,7 +244,7 @@ local unzipstatus
      0)
 	    if [ ${needmono,,} == "y" ] && [ $ismonothere == "n" ]; then
         dialog --progressbox "Downloading ${mono_version} package..." $height $width 2>&1 > /dev/tty0
-        curl -L -s --connect-timeout 30 -m 60 ${website}${mono_version} -O --output-dir $toolsfolderloc/PortMaster/libs/
+        curl -L -s --connect-timeout 30 ${website}${mono_version} -O --output-dir $toolsfolderloc/PortMaster/libs/
         fi
         if [ ${needmono,,} == "y" ] && [ $ismonothere == "n" ] && [ $? -ne 0 ]; then
           dialog --clear --backtitle "PortMaster v$curversion" --title "$mono_version" --clear --msgbox "\n\n$mono_version did NOT download. \
@@ -253,7 +253,7 @@ local unzipstatus
           $ESUDO rm -f $toolsfolderloc/PortMaster/libs/$mono_version
         else
         dialog --progressbox "Downloading ${installloc} package..." $height $width 2>&1 > /dev/tty0
-        curl -L -s --connect-timeout 30 -m 60 ${website}${installloc} -O --output-dir /dev/shm/portmaster/
+        curl -L -s --connect-timeout 30 ${website}${installloc} -O --output-dir /dev/shm/portmaster/
 	      unzip -o /dev/shm/portmaster/$installloc -d /$whichsd/ports/ > /dev/tty0
 	      unzipstatus=$?
 		  if [ $unzipstatus -eq 0 ] || [ $unzipstatus -eq 1 ]; then
