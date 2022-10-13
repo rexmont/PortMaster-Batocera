@@ -2,7 +2,7 @@
 ## Introduction
  Batocera compatible PortMaster Implementation
 
- I think in the near future PortMaster will be ported onto Batocera but for now, out of the box PortMaster does not work on Batocera (v35). The device I use is an Ondroid Go Super with a USB WiFi dongle.
+ I think in the near future PortMaster will be brought into Batocera but for now, out of the box PortMaster does not work on Batocera (v35). The device I use is an Ondroid Go Super with a USB WiFi dongle.
 
  I am no bash scripting or Linux expert by any means, but it seems like there are two issues with the current implementation that prevents the PortMaster to run on Batocera:
 
