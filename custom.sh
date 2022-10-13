@@ -8,6 +8,11 @@ case "$1" in
           cd /
           ln -sf userdata storage
         fi
+
+        if [ ! -d "/roms" ] ; then
+          cd /
+          ln -sf userdata/roms/ roms
+        fi
         ;;
     stop)
         echo "stopped"
@@ -16,6 +21,11 @@ case "$1" in
         if [ ! -d "/storage" ] ; then
           cd /
           ln -sf userdata storage
+        fi
+
+        if [ ! -d "/roms" ] ; then
+          cd /
+          ln -sf userdata/roms/ roms
         fi
         ;;
     *)
