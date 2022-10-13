@@ -17,13 +17,11 @@
 3. SFTP into your Batocera installed device
 4. Browse to /userdata/roms/ and create a folder called *ports* if it is not there
 5. Transfer the *PostMaster* folder from the extracted ZIP file into the *ports* folder you just created on the device
+6. Transfer the *custom.sh* file into */userdata/system*. This script creates the required */storage* symlink on reboot
 6. Reboot Batocera installed device (handheld, etc)
 7. Browse to *Ports* category on Batocera
 8. PostMaster should be listed now. Launch it.
 9. PostMaster should launch with no issues. From this step onwards you can follow online tutorials to install game ports.
-
-## **IMPORTANT!**
-One issue is that once you install a game port and reboot your device, the required symlink */storage* disappears. I need to find a way to make it persistent. In the meantime you will need to launch PortMaster everytime after you restart your device. So the symlink can be recreated and used by the games. After launching PortMaster you can immediately exit and proceed to launch your game.
 
 ## Installing Games
 Some games are already included as part of the PortMaster and can be downloaded and played immediately. Other games which require a purchase needs to follow the process where it is explained on guides available online.
