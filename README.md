@@ -16,7 +16,7 @@
 2. Extract ZIP on your computer
 3. SFTP into your Batocera installed device
 4. Browse to /userdata/roms/ and create a folder called *ports* if it is not there
-5. Transfer the *PostMaster* folder inside the *ports* folder you just created
+5. Transfer the *PostMaster* folder from the extracted ZIP file into the *ports* folder you just created on the device
 6. Reboot Batocera installed device (handheld, etc)
 7. Browse to *Ports* category on Batocera
 8. PostMaster should be listed now. Launch it.
