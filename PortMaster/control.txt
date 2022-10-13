@@ -1,7 +1,7 @@
-# This file can and should be sourced by ports for various parameters to 
+# This file can and should be sourced by ports for various parameters to
 # minimize script customizations and allow for easier future updates
 # like adding additional supported devices.
-# Thanks to JohnnyonFlame, dhwz, romadu, and shantigilbert for the 
+# Thanks to JohnnyonFlame, dhwz, romadu, and shantigilbert for the
 # suggestion and assistance with this.
 # Source used for gptokeyb available at
 # https://github.com/christianhaitian/gptokeyb
@@ -15,7 +15,7 @@ if [[ -e "/usr/share/plymouth/themes/text.plymouth" ]]; then
     directory="roms"
   fi
 else
-  directory="roms"
+  directory="storage/roms"
 fi
 
 if [ -f "/etc/os-release" ]; then
@@ -36,7 +36,7 @@ sudo echo "Testing for sudo..."
 if [ $? != 0 ]; then
   echo "No sudo present."
   ESUDO=""
-  ESUDOKILL="-1" # for 351Elec and EmuELEC use "-1" (numeric one) or "-k" 
+  ESUDOKILL="-1" # for 351Elec and EmuELEC use "-1" (numeric one) or "-k"
   export SDL_GAMECONTROLLERCONFIG_FILE="$controlfolder/gamecontrollerdb.txt"
 else
   ESUDO="sudo --preserve-env=SDL_GAMECONTROLLERCONFIG_FILE,DEVICE,param_device,HOTKEY,ANALOGSTICKS"
