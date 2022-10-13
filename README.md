@@ -21,3 +21,10 @@
 7. Browse to *Ports* category on Batocera
 8. PostMaster should be listed now. Launch it.
 9. PostMaster should launch with no issues. From this step onwards you can follow online tutorials to install game ports.
+
+Some games are already included as part of the PortMaster and can be downloaded and played immediately. Other games which require a purchase needs to follow the process where it is explained on guides available online.
+
+Tutorial for installing Timespinner game port:
+[Retro Game Corps - Timespinner tutorial](https://www.youtube.com/watch?v=rDv0ZmB0l7I) You can skip the part where he updates the OS and PortMaster.
+
+More tutorials can be found on YouTube or [here](https://github.com/christianhaitian/PortMaster/wiki)
