@@ -10,10 +10,13 @@ case "$1" in
         fi
         ;;
     stop)
-
+        echo "stopped"
+        ;;
     restart|reload)
-        # Code in here will executed (when?).
-        echo "restarted or reloaded"
+        if [ ! -d "/storage" ] ; then
+          cd /
+          ln -sf userdata storage
+        fi
         ;;
     *)
         # Code in here will be executed in all other conditions.
