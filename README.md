@@ -27,6 +27,6 @@
 Some games are already included as part of the PortMaster and can be downloaded and played immediately. Other games which require a purchase needs to follow the process where it is explained on guides available online.
 
 Tutorial for installing Timespinner game port:
-[Retro Game Corps - Timespinner tutorial](https://www.youtube.com/watch?v=rDv0ZmB0l7I) You can skip the part where the OS and PortMaster are being updated.
+[Retro Game Corps - Timespinner tutorial](https://www.youtube.com/watch?v=rDv0ZmB0l7I){:target="_blank"} You can skip the part where the OS and PortMaster are being updated.
 
-More tutorials can be found on YouTube or [here](https://github.com/christianhaitian/PortMaster/wiki)
+More tutorials can be found on YouTube or [here](https://github.com/christianhaitian/PortMaster/wiki){:target="_blank"}
