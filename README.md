@@ -23,7 +23,7 @@
 9. PostMaster should launch with no issues. From this step onwards you can follow online tutorials to install game ports.
 
 ## **IMPORTANT!**
-One issue is that once you install a game port and reboot your device, the required symlink */storage* disappears. I need to find a way to make it persistent. In the meantime you will need to launch PortMaster everytime after you restart your device. So the symlink can be recreated and used by the games.
+One issue is that once you install a game port and reboot your device, the required symlink */storage* disappears. I need to find a way to make it persistent. In the meantime you will need to launch PortMaster everytime after you restart your device. So the symlink can be recreated and used by the games. After launching PortMaster you can immediately exit and proceed to launch your game.
 
 ## Installing Games
 Some games are already included as part of the PortMaster and can be downloaded and played immediately. Other games which require a purchase needs to follow the process where it is explained on guides available online.
